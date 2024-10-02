@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid rgb(1, 1, 1);
+    width: 70%;
+    margin: auto;
+    margin-top: 20%;
+    box-shadow: 5px 5px 0px 0px rgb(46, 46, 46);
+    padding: 28px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.me {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 0px 0px rgb(46, 46, 46);
+    border: 1px solid rgb(1, 1, 1);
+    margin-bottom: 5px;
+}
+
+.student-tag {
+    border: 1px solid rgb(1, 1, 1);
+    box-shadow: 5px 5px 0px 0px rgb(46, 46, 46);   
+    margin-bottom: 10px; 
+}
+
+.details {
+    padding: 5px 0px;
+}
+
+.details::after {
+    content: '';
+    width: 10px;    
+}
+
+.address {
+    padding: 5px 5px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    margin: 5px 0px;
+    width: fit-content;
+}
